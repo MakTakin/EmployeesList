@@ -18,7 +18,7 @@ def save_employee(request):
             f.write(file.file.read())
 
     params = request.POST
-    print(params)
+
     if params.get('id', None) is None:
         employee = Employee()
     else:
