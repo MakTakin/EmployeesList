@@ -1,0 +1,8 @@
+.selected  {
+    background-color: #5538c7;
+}
+
+.employee-image  {
+    max-width: 50px ;
+    max-height: 50px;
+}

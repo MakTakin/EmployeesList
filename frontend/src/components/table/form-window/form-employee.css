@@ -1,0 +1,54 @@
+.form-employee {
+    background-color: white;
+    height: 90%;
+    width: 80%;
+    border: none;
+    padding:5px 10px;
+}
+
+.form {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.form__photo {
+    flex: 0 1 25%
+}
+.form__colums {
+    flex: 0 1  75%
+}
+
+.form__items-input {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-end;
+
+}
+
+.form__colum1 {
+    flex: 0 1 48%;
+    margin-left: 20px;
+}
+
+.form__colum2 {
+    flex: 0 1 48%
+}
+
+ div .form__colums-item{
+    margin-bottom: 10px;
+
+}
+
+div .form__button {
+    margin-right: 5px;
+    float: right;
+}
+
+div .birthday {
+    display: block;
+}
+
+.form-image {
+    max-height: 250px;
+    max-width: 265px;
+}
