@@ -1,9 +1,11 @@
 # EmployeesList
 
-Test app. You can add  employees to list, delete and change them
+Test app. You can add employees profiles to the list, delete and change It
 
 Stack:
+
 Frontend: React
-Backend Django + Postgres
+
+Backend: Django + PostgreSQL
 
 ![alt text](example.png)
