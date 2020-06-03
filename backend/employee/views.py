@@ -18,6 +18,7 @@ def save_employee(request):
             f.write(file.file.read())
 
     params = request.POST
+    print(params)
     if params.get('id', None) is None:
         employee = Employee()
     else:
@@ -25,7 +26,7 @@ def save_employee(request):
 
     if len(files) > 0:
         employee.photo = f"/media/images/{file.name}"
-    elif params['photo'] is not None:
+    elif params['photo'] != 'null':
         employee.photo = f"{params['photo']}"
     else:
         employee.photo = f'/media/images/default.png'
